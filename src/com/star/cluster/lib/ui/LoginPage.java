@@ -19,7 +19,7 @@ public class LoginPage {
 		wait.until(ExpectedConditions.visibilityOf(getUsernameTextbox()));
 		wait.until(ExpectedConditions.visibilityOf(getpasswrodTextbox()));
 		wait.until(ExpectedConditions.visibilityOf(getLoginButton()));
-		//wait.until(ExpectedConditions.visibilityOf(geterrormessage()));
+		wait.until(ExpectedConditions.visibilityOf(geterrormessage()));
 
 	}
 	
@@ -76,4 +76,6 @@ public class LoginPage {
 			
 		}
 	}
+	
+	
 }
